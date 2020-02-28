@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.services;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 
-		//https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH&tsyms=USD,EUR
-
 		SpringApplication.run(DemoApplication.class, args);
-
 
 	}
 

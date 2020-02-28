@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.entities;
 
 
 import javax.persistence.Column;
@@ -12,6 +12,11 @@ public abstract class Currency {
     @Column(unique = true)
     private String name;
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
-
+    public String getName() {
+        return name;
+    }
 }
